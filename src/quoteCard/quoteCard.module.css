@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.quote-div {
+    width: 100%;
+    padding: 4rem;
+    background-color: #172137;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 1rem;
+    box-shadow: #111a2b 0 0 1rem 2px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.quote-div:hover {
+    transform: translateY(-5px);
+    box-shadow: #17233a 0 5px 1rem;
+    filter: contrast(110%);
+}
+
+.quote-div p {
+    font-size: 2.4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: aliceblue;
+    text-align: justify;
+}
+
+.quote-div span {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
